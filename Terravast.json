@@ -1,0 +1,161 @@
+{
+    "biomes": {
+        "Plains": {
+            "Grass": "Grass",
+            "Dirt": "Dirt",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "Oak Tree",
+            "Big-Tree":"Big Oak Tree",
+            "ambienceURL":"https://www.youtube.com/embed/xNN7iTA57jM"
+        },
+        "Desert": {
+            "Grass": "Sand",
+            "Dirt": "Sand",
+            "Stone": "Sandstone",
+            "Mountain": "Sand Spire",
+            "Tree": "Cactus",
+            "Big-Tree":"Palm Tree",
+            "ambienceURL":"https://www.youtube.com/embed/maK6_JQn3Jc"
+        },
+        "Ice Biome": {
+            "Grass": "Snow",
+            "Dirt": "Ice",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "Pine Tree",
+            "Big-Tree":"Big Pine Tree"
+        },
+        "Savanna": {
+            "Grass": "Golden Grass",
+            "Dirt": "Golden Mud",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "Acacia Tree",
+            "Big-Tree":"Small Baobab Tree"
+        },
+        "Swamp": {
+            "Grass": "Swamp Water",
+            "Dirt": "Swamp Water",
+            "Stone": "Grass",
+            "Mountain": "Grass",
+            "Tree": "Mangrove Tree",
+            "Big-Tree":"Glowy Mangrove Tree"
+        },
+        "Rainforest": {
+            "Grass": "Grass",
+            "Dirt": "Dirt",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "Jungle Tree",
+            "Big-Tree":"Baobab Tree"
+        },
+        "Redwood Forest": {
+            "Grass": "Grass",
+            "Dirt": "Dirt",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "Redwood Tree",
+            "Big-Tree":"Big Redwood Tree"
+        },
+        "Magma Plains": {
+            "Grass": "Ash",
+            "Dirt": "Magma",
+            "Stone": "Magma",
+            "Mountain": "Mountain",
+            "Tree": "Ash Tree",
+            "Big-Tree":"Ash Tree"
+        },
+        "Wasteland": {
+            "Grass": "Dry Mud",
+            "Dirt": "Dry Mud",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "",
+            "Big-Tree":"Dead Bush"
+        },
+        "Cherry Forest": {
+            "Grass": "Grass",
+            "Dirt": "Dirt",
+            "Stone": "Stone",
+            "Mountain": "Mountain",
+            "Tree": "Cherry Tree",
+            "Big-Tree":"Cherry Tree"
+        },
+        "Ocean": {
+            "Grass": "Water",
+            "Dirt": "Water",
+            "Stone": "Water",
+            "Mountain": "Water",
+            "Tree": "",
+            "Big-Tree":""
+        }
+    },
+    "settings": {},
+    "structures": {
+        "Ruins": {
+            "Biome": [
+                "Plains",
+                "Redwood Forest"
+            ],
+            "Spawn%": 0.03
+        },
+        "Watchtower": {
+            "Biome": [
+                "Plains",
+                "Redwood Forest"
+            ],
+            "Spawn%": 0.03
+        },
+        "Mine": {
+            "Biome": [
+                "Plains",
+                "Redwood Forest"
+            ],
+            "Spawn%": 0.03
+        },
+        "Castle": {
+            "Biome": [
+                "Plains",
+                "Redwood Forest"
+            ],
+            "Spawn%": 0.02
+        },
+        "Pyramid": {
+            "Biome": [
+                "Desert"
+            ],
+            "Spawn%": 0.03
+        },
+        "Igloo": {
+            "Biome": [
+                "Ice Biome"
+            ],
+            "Spawn%": 0.03
+        },
+        "Boardwalk": {
+            "Biome": [
+                "Swamp"
+            ],
+            "Spawn%": 0.3
+        },
+        "HellCastle": {
+            "Biome": [
+                "Magma Plains"
+            ],
+            "Spawn%": 0.01
+        },
+        "Rock": {
+            "Biome": [
+                "Wasteland"
+            ],
+            "Spawn%": 0.3
+        },
+        "Well": {
+            "Biome": [
+                null
+            ],
+            "Spawn%": 0
+        }
+    }
+}
