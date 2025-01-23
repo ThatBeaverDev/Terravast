@@ -6,8 +6,7 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Oak Tree",
-            "Big-Tree":"Big Oak Tree",
-            "ambienceURL":"https://www.youtube.com/embed/xNN7iTA57jM"
+            "Big-Tree": "Big Oak Tree"
         },
         "Desert": {
             "Grass": "Sand",
@@ -15,8 +14,7 @@
             "Stone": "Sandstone",
             "Mountain": "Sand Spire",
             "Tree": "Cactus",
-            "Big-Tree":"Palm Tree",
-            "ambienceURL":"https://www.youtube.com/embed/maK6_JQn3Jc"
+            "Big-Tree": "Palm Tree"
         },
         "Ice Biome": {
             "Grass": "Snow",
@@ -24,7 +22,7 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Pine Tree",
-            "Big-Tree":"Big Pine Tree"
+            "Big-Tree": "Big Pine Tree"
         },
         "Savanna": {
             "Grass": "Golden Grass",
@@ -32,7 +30,7 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Acacia Tree",
-            "Big-Tree":"Small Baobab Tree"
+            "Big-Tree": "Small Baobab Tree"
         },
         "Swamp": {
             "Grass": "Swamp Water",
@@ -40,7 +38,7 @@
             "Stone": "Grass",
             "Mountain": "Grass",
             "Tree": "Mangrove Tree",
-            "Big-Tree":"Glowy Mangrove Tree"
+            "Big-Tree": "Glowy Mangrove Tree"
         },
         "Rainforest": {
             "Grass": "Grass",
@@ -48,7 +46,7 @@
             "Stone": "Stone",
             "Mountain": "Big Mountain",
             "Tree": "Jungle Tree",
-            "Big-Tree":"Baobab Tree"
+            "Big-Tree": "Baobab Tree"
         },
         "Redwood Forest": {
             "Grass": "Grass",
@@ -56,7 +54,7 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Redwood Tree",
-            "Big-Tree":"Big Redwood Tree"
+            "Big-Tree": "Big Redwood Tree"
         },
         "Magma Plains": {
             "Grass": "Ash",
@@ -64,7 +62,7 @@
             "Stone": "Magma",
             "Mountain": "Mountain",
             "Tree": "Ash Tree",
-            "Big-Tree":"Ash Tree"
+            "Big-Tree": "Ash Tree"
         },
         "Wasteland": {
             "Grass": "Dry Mud",
@@ -72,7 +70,7 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "",
-            "Big-Tree":"Dead Bush"
+            "Big-Tree": "Dead Bush"
         },
         "Cherry Forest": {
             "Grass": "Grass",
@@ -80,7 +78,7 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Cherry Tree",
-            "Big-Tree":"Cherry Tree"
+            "Big-Tree": "Cherry Tree"
         },
         "Ocean": {
             "Grass": "Water",
@@ -88,7 +86,7 @@
             "Stone": "Water",
             "Mountain": "Water",
             "Tree": "",
-            "Big-Tree":""
+            "Big-Tree": ""
         }
     },
     "settings": {},
@@ -156,6 +154,95 @@
                 null
             ],
             "Spawn%": 0
+        }
+    },
+    "blocks":{
+        "Grass":{
+            "type":"block"
+        },
+        "Dirt":{
+            "type":"block"
+        },
+        "Stone":{
+            "type":"block"
+        },
+        "Sand":{
+            "type":"block"
+        },
+        "Sandstone":{
+            "type":"block"
+        },
+        "Water":{
+            "type":"block"
+        },
+        "Oak Tree":{
+            "type":"plant"
+        },
+        "Big Oak Tree":{
+            "type":"plant"
+        },
+        "Cactus":{
+            "type":"plant"
+        },
+        "Palm Tree":{
+            "type":"plant"
+        },
+        "Pine Tree":{
+            "type":"plant"
+        },
+        "Big Pine Tree":{
+            "type":"plant"
+        },
+        "Acacia Tree":{
+            "type":"plant"
+        },
+        "Small Baobab Tree":{
+            "type":"plant"
+        },
+        "Mangrove Tree":{
+            "type":"plant"
+        },
+        "Glowy Mangrove Tree":{
+            "type":"plant"
+        },
+        "Jungle Tree":{
+            "type":"plant"
+        },
+        "Baobab Tree":{
+            "type":"plant"
+        },
+        "Redwood Tree":{
+            "type":"plant"
+        },
+        "Big Redwood Tree":{
+            "type":"plant"
+        },
+        "Ash Tree":{
+            "type":"plant"
+        },
+        "Dead Bush":{
+            "type":"plant"
+        },
+        "Cherry Tree":{
+            "type":"plant"
+        },
+        "Kelp":{
+            "type":"plant"
+        },
+        "Seagrass":{
+            "type":"plant"
+        },
+        "Mountain":{
+            "type":"Spire"
+        },
+        "Sand Spire":{
+            "type":"Spire"
+        },
+        "Volcano":{
+            "type":"Spire"
+        },
+        "Big Mountain":{
+            "type":"Spire"
         }
     }
 }
