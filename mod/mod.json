@@ -6,7 +6,8 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Oak Tree",
-            "Big-Tree": "Big Oak Tree"
+            "Big-Tree": "Big Oak Tree",
+            "ambienceURL":"https://youtube.com/embed/x23I8f9PwlI"
         },
         "Desert": {
             "Grass": "Sand",
@@ -14,7 +15,8 @@
             "Stone": "Sandstone",
             "Mountain": "Sand Spire",
             "Tree": "Cactus",
-            "Big-Tree": "Palm Tree"
+            "Big-Tree": "Palm Tree",
+            "ambienceURL":"https://www.youtube.com/embed/sELjOl9gP-k"
         },
         "Ice Biome": {
             "Grass": "Snow",
@@ -22,7 +24,8 @@
             "Stone": "Stone",
             "Mountain": "Mountain",
             "Tree": "Pine Tree",
-            "Big-Tree": "Big Pine Tree"
+            "Big-Tree": "Big Pine Tree",
+            "ambienceURL":"https://www.youtube.com/embed/WvrciA9TTTw"
         },
         "Savanna": {
             "Grass": "Golden Grass",
