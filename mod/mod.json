@@ -1,251 +1,514 @@
 {
     "biomes": {
-        "Plains": {
-            "Grass": "Grass",
-            "Dirt": "Dirt",
-            "Stone": "Stone",
-            "Mountain": "Mountain",
-            "Tree": "Oak Tree",
-            "Big-Tree": "Big Oak Tree",
-            "ambienceURL":"https://youtube.com/embed/x23I8f9PwlI"
-        },
-        "Desert": {
-            "Grass": "Sand",
-            "Dirt": "Sand",
-            "Stone": "Sandstone",
-            "Mountain": "Sand Spire",
-            "Tree": "Cactus",
-            "Big-Tree": "Palm Tree",
-            "ambienceURL":"https://www.youtube.com/embed/sELjOl9gP-k"
-        },
-        "Ice Biome": {
-            "Grass": "Snow",
-            "Dirt": "Ice",
-            "Stone": "Stone",
-            "Mountain": "Mountain",
-            "Tree": "Pine Tree",
-            "Big-Tree": "Big Pine Tree",
-            "ambienceURL":"https://www.youtube.com/embed/WvrciA9TTTw"
-        },
-        "Savanna": {
-            "Grass": "Golden Grass",
-            "Dirt": "Golden Mud",
-            "Stone": "Stone",
-            "Mountain": "Mountain",
-            "Tree": "Acacia Tree",
-            "Big-Tree": "Small Baobab Tree"
-        },
-        "Swamp": {
-            "Grass": "Swamp Water",
-            "Dirt": "Swamp Water",
-            "Stone": "Grass",
-            "Mountain": "Grass",
-            "Tree": "Mangrove Tree",
-            "Big-Tree": "Glowy Mangrove Tree"
-        },
-        "Rainforest": {
-            "Grass": "Grass",
-            "Dirt": "Dirt",
-            "Stone": "Stone",
-            "Mountain": "Big Mountain",
-            "Tree": "Jungle Tree",
-            "Big-Tree": "Baobab Tree"
-        },
-        "Redwood Forest": {
-            "Grass": "Grass",
-            "Dirt": "Dirt",
-            "Stone": "Stone",
-            "Mountain": "Mountain",
-            "Tree": "Redwood Tree",
-            "Big-Tree": "Big Redwood Tree"
-        },
-        "Magma Plains": {
-            "Grass": "Ash",
-            "Dirt": "Magma",
-            "Stone": "Magma",
-            "Mountain": "Volcano",
-            "Tree": "Ash Tree",
-            "Big-Tree": "Ash Tree"
-        },
-        "Wasteland": {
-            "Grass": "Dry Mud",
-            "Dirt": "Dry Mud",
-            "Stone": "Stone",
-            "Mountain": "Mountain",
-            "Tree": "",
-            "Big-Tree": "Dead Bush"
-        },
-        "Cherry Forest": {
-            "Grass": "Grass",
-            "Dirt": "Dirt",
-            "Stone": "Stone",
-            "Mountain": "Mountain",
-            "Tree": "Cherry Tree",
-            "Big-Tree": "Cherry Tree"
-        },
-        "Ocean": {
-            "Grass": "Water",
-            "Dirt": "Water",
-            "Stone": "Water",
-            "Mountain": "Water",
-            "Tree": "",
-            "Big-Tree": ""
-        }
+      "Plains": {
+        "Grass": "Grass",
+        "Dirt": "Dirt",
+        "Stone": "Stone",
+        "Mountain": "Mountain",
+        "Tree": "Oak Tree",
+        "Big-Tree": "Big Oak Tree"
+      },
+      "Desert": {
+        "Grass": "Sand",
+        "Dirt": "Sand",
+        "Stone": "Sandstone",
+        "Mountain": "Sand Spire",
+        "Tree": "Cactus",
+        "Big-Tree": "Palm Tree"
+      },
+      "Ice Biome": {
+        "Grass": "Snow",
+        "Dirt": "Ice",
+        "Stone": "Stone",
+        "Mountain": "Mountain",
+        "Tree": "Pine Tree",
+        "Big-Tree": "Big Pine Tree"
+      },
+      "Savanna": {
+        "Grass": "Golden Grass",
+        "Dirt": "Golden Mud",
+        "Stone": "Stone",
+        "Mountain": "Mountain",
+        "Tree": "Acacia Tree",
+        "Big-Tree": "Small Baobab Tree"
+      },
+      "Swamp": {
+        "Grass": "Swamp Water",
+        "Dirt": "Swamp Water",
+        "Stone": "Grass",
+        "Mountain": "Grass",
+        "Tree": "Mangrove Tree",
+        "Big-Tree": "Glowy Mangrove Tree",
+        "staticHeight": 1
+      },
+      "Rainforest": {
+        "Grass": "Grass",
+        "Dirt": "Dirt",
+        "Stone": "Stone",
+        "Mountain": "Big Mountain",
+        "Tree": "Rick Mahogany Tree",
+        "Big-Tree": "Baobab Tree"
+      },
+      "Redwood Forest": {
+        "Grass": "Grass",
+        "Dirt": "Dirt",
+        "Stone": "Stone",
+        "Mountain": "Mountain",
+        "Tree": "Redwood Tree",
+        "Big-Tree": "Big Redwood Tree"
+      },
+      "Magma Plains": {
+        "Grass": "Ash",
+        "Dirt": "Magma",
+        "Stone": "Magma",
+        "Mountain": "Volcano",
+        "Tree": "Ash Tree",
+        "Big-Tree": "Ash Tree"
+      },
+      "Wasteland": {
+        "Grass": "Dry Mud",
+        "Dirt": "Dry Mud",
+        "Stone": "Stone",
+        "Mountain": "Mountain",
+        "Tree": "",
+        "Big-Tree": "Dead Bush"
+      },
+      "Sakura Forest": {
+        "Grass": "Grass",
+        "Dirt": "Dirt",
+        "Stone": "Stone",
+        "Mountain": "Mountain",
+        "Tree": "Sakura Tree",
+        "Big-Tree": "Sakura Tree"
+      },
+      "Ocean": {
+        "Grass": "Water",
+        "Dirt": "Water",
+        "Stone": "Water",
+        "Mountain": "Water",
+        "Tree": "",
+        "Big-Tree": ""
+      }
     },
-    "settings": {},
     "structures": {
-        "Ruins": {
-            "Biome": [
-                "Plains",
-                "Redwood Forest"
-            ],
-            "Spawn%": 0.03
-        },
-        "Watchtower": {
-            "Biome": [
-                "Plains",
-                "Redwood Forest"
-            ],
-            "Spawn%": 0.03
-        },
-        "Mine": {
-            "Biome": [
-                "Plains",
-                "Redwood Forest"
-            ],
-            "Spawn%": 0.03
-        },
-        "Castle": {
-            "Biome": [
-                "Plains",
-                "Redwood Forest"
-            ],
-            "Spawn%": 0.02
-        },
-        "Pyramid": {
-            "Biome": [
-                "Desert"
-            ],
-            "Spawn%": 0.03
-        },
-        "Igloo": {
-            "Biome": [
-                "Ice Biome"
-            ],
-            "Spawn%": 0.03
-        },
-        "Boardwalk": {
-            "Biome": [
-                "Swamp"
-            ],
-            "Spawn%": 0.3
-        },
-        "HellCastle": {
-            "Biome": [
-                "Magma Plains"
-            ],
-            "Spawn%": 0.01
-        },
-        "Rock": {
-            "Biome": [
-                "Wasteland"
-            ],
-            "Spawn%": 0.3
-        },
-        "Well": {
-            "Biome": [
-                null
-            ],
-            "Spawn%": 0
-        }
+      "Ruins": {
+        "Biome": [
+          "Plains",
+          "Redwood Forest"
+        ],
+        "Spawn%": 0.03
+      },
+      "Watchtower": {
+        "Biome": [
+          "Plains",
+          "Redwood Forest"
+        ],
+        "Spawn%": 0.03
+      },
+      "Mine": {
+        "Biome": [
+          "Plains",
+          "Redwood Forest"
+        ],
+        "Spawn%": 0.03
+      },
+      "Castle": {
+        "Biome": [
+          "Plains",
+          "Redwood Forest"
+        ],
+        "Spawn%": 0.02
+      },
+      "Pyramid": {
+        "Biome": [
+          "Desert"
+        ],
+        "Spawn%": 0.03
+      },
+      "Igloo": {
+        "Biome": [
+          "Ice Biome"
+        ],
+        "Spawn%": 0.03
+      },
+      "Boardwalk": {
+        "Biome": [
+          "Swamp"
+        ],
+        "Spawn%": 0.3
+      },
+      "HellCastle": {
+        "Biome": [
+          "Magma Plains"
+        ],
+        "Spawn%": 0.01
+      },
+      "Rock": {
+        "Biome": [
+          "Wasteland"
+        ],
+        "Spawn%": 0.3
+      },
+      "Well": {
+        "Biome": [
+          null
+        ],
+        "Spawn%": 0
+      }
     },
-    "blocks":{
-        "Grass":{
-            "type":"block"
-        },
-        "Dirt":{
-            "type":"block"
-        },
-        "Stone":{
-            "type":"block"
-        },
-        "Sand":{
-            "type":"block"
-        },
-        "Sandstone":{
-            "type":"block"
-        },
-        "Water":{
-            "type":"block"
-        },
-        "Oak Tree":{
-            "type":"plant"
-        },
-        "Big Oak Tree":{
-            "type":"plant"
-        },
-        "Cactus":{
-            "type":"plant"
-        },
-        "Palm Tree":{
-            "type":"plant"
-        },
-        "Pine Tree":{
-            "type":"plant"
-        },
-        "Big Pine Tree":{
-            "type":"plant"
-        },
-        "Acacia Tree":{
-            "type":"plant"
-        },
-        "Small Baobab Tree":{
-            "type":"plant"
-        },
-        "Mangrove Tree":{
-            "type":"plant"
-        },
-        "Glowy Mangrove Tree":{
-            "type":"plant"
-        },
-        "Jungle Tree":{
-            "type":"plant"
-        },
-        "Baobab Tree":{
-            "type":"plant"
-        },
-        "Redwood Tree":{
-            "type":"plant"
-        },
-        "Big Redwood Tree":{
-            "type":"plant"
-        },
-        "Ash Tree":{
-            "type":"plant"
-        },
-        "Dead Bush":{
-            "type":"plant"
-        },
-        "Cherry Tree":{
-            "type":"plant"
-        },
-        "Kelp":{
-            "type":"plant"
-        },
-        "Seagrass":{
-            "type":"plant"
-        },
-        "Mountain":{
-            "type":"Spire"
-        },
-        "Sand Spire":{
-            "type":"Spire"
-        },
-        "Volcano":{
-            "type":"Spire"
-        },
-        "Big Mountain":{
-            "type":"Spire"
-        }
-    }
-}
+    "version": "1",
+    "blocks": {
+      "Oak Tree": {
+        "type": "plant",
+        "drops": "Oak Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Big Oak Tree": {
+        "type": "plant",
+        "drops": "Oak Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Acacia Tree": {
+        "type": "plant",
+        "drops": "Acacia Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Ash Tree": {
+        "type": "plant",
+        "drops": "Ash Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Baobab Tree": {
+        "type": "plant",
+        "drops": "Baobab Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Small Baobab Tree": {
+        "type": "plant",
+        "drops": "Baobab Log",
+        "dropAmt": [
+          1,
+          2
+        ]
+      },
+      "Pine Tree": {
+        "type": "plant",
+        "drops": "Pine Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Big Pine Tree": {
+        "type": "plant",
+        "drops": "Pine Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Redwood Tree": {
+        "type": "plant",
+        "drops": "Redwood Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Big Redwood Tree": {
+        "type": "plant",
+        "drops": "Redwood Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Sakura Tree": {
+        "type": "plant",
+        "drops": "Sakura Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Big Sakura Tree": {
+        "type": "plant",
+        "drops": "Sakura Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Mangrove Tree": {
+        "type": "plant",
+        "drops": "Mangrove Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Glowy Mangrove Tree": {
+        "type": "plant",
+        "drops": "Mangrove Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Rich Mahogany Tree": {
+        "type": "plant",
+        "drops": "Rich Mahogany Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Big Rich Mahogany Tree": {
+        "type": "plant",
+        "drops": "Rich Mahogany Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Palm Tree": {
+        "type": "plant",
+        "drops": "Palm Log",
+        "dropAmt": [
+          1,
+          4
+        ]
+      },
+      "Big Palm Tree": {
+        "type": "plant",
+        "drops": "Palm Log",
+        "dropAmt": [
+          2,
+          8
+        ]
+      },
+      "Stone": {
+        "type": "block"
+      },
+      "Basalt": {
+        "type": "block"
+      },
+      "Marble": {
+        "type": "block"
+      },
+      "Limestone": {
+        "type": "block"
+      },
+      "Slate": {
+        "type": "block"
+      },
+      "Dead Bush":{
+        "type": "plant",
+        "drops": "Sticks",
+        "dropAmt": [
+          1, 3
+        ]
+      },
+      "Cactus":{
+        "type": "plant"
+      },
+      "Mountain":{
+        "type": "spire"
+      }
+    },
+    "items": {
+      "Oak Log": {
+        "clickAction": null
+      },
+      "Oak Sword": {
+        "clickAction": "attack"
+      },
+      "Oak Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Oak Shovel": {
+        "clickAction": "dig"
+      },
+      "Acacia Log": {
+        "clickAction": null
+      },
+      "Acacia Sword": {
+        "clickAction": "attack"
+      },
+      "Acacia Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Acacia Shovel": {
+        "clickAction": "dig"
+      },
+      "Ash Log": {
+        "clickAction": null
+      },
+      "Ash Sword": {
+        "clickAction": "attack"
+      },
+      "Ash Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Ash Shovel": {
+        "clickAction": "dig"
+      },
+      "Baobab Log": {
+        "clickAction": null
+      },
+      "Baobab Sword": {
+        "clickAction": "attack"
+      },
+      "Baobab Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Baobab Shovel": {
+        "clickAction": "dig"
+      },
+      "Pine Log": {
+        "clickAction": null
+      },
+      "Pine Sword": {
+        "clickAction": "attack"
+      },
+      "Pine Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Pine Shovel": {
+        "clickAction": "dig"
+      },
+      "Redwood Log": {
+        "clickAction": null
+      },
+      "Redwood Sword": {
+        "clickAction": "attack"
+      },
+      "Redwood Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Redwood Shovel": {
+        "clickAction": "dig"
+      },
+      "Sakura Log": {
+        "clickAction": null
+      },
+      "Sakura Sword": {
+        "clickAction": "attack"
+      },
+      "Sakura Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Sakura Shovel": {
+        "clickAction": "dig"
+      },
+      "Mangrove Log": {
+        "clickAction": null
+      },
+      "Mangrove Sword": {
+        "clickAction": "attack"
+      },
+      "Mangrove Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Mangrove Shovel": {
+        "clickAction": "dig"
+      },
+      "Rich Mahogany Log": {
+        "clickAction": null
+      },
+      "Rich Mahogany Sword": {
+        "clickAction": "attack"
+      },
+      "Rich Mahogany Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Rich Mahogany Shovel": {
+        "clickAction": "dig"
+      },
+      "Palm Log": {
+        "clickAction": null
+      },
+      "Palm Sword": {
+        "clickAction": "attack"
+      },
+      "Palm Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Palm Shovel": {
+        "clickAction": "dig"
+      },
+      "Stone Sword": {
+        "clickAction": "attack"
+      },
+      "Stone Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Stone Shovel": {
+        "clickAction": "dig"
+      },
+      "Basalt Sword": {
+        "clickAction": "attack"
+      },
+      "Basalt Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Basalt Shovel": {
+        "clickAction": "dig"
+      },
+      "Marble Sword": {
+        "clickAction": "attack"
+      },
+      "Marble Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Marble Shovel": {
+        "clickAction": "dig"
+      },
+      "Limestone Sword": {
+        "clickAction": "attack"
+      },
+      "Limestone Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Limestone Shovel": {
+        "clickAction": "dig"
+      },
+      "Slate Sword": {
+        "clickAction": "attack"
+      },
+      "Slate Pickaxe": {
+        "clickAction": "mine"
+      },
+      "Slate Shovel": {
+        "clickAction": "dig"
+      },
+      "Sticks":{
+        "clickAction": null
+      }
+    },
+    "recipes":[
+      {
+        "inputs":[
+          
+        ],
+        "outputs":[
+
+        ]
+      }
+    ]
+  }
